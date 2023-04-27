@@ -1,9 +1,42 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <img src="images/logo.png">
-        <script src="index.js"></script>
+        <div class="container">
+            <header class="header">
+                <img src="./images/logo.png" alt="oldagram logo" class="logo">
+                <img src="./images/namjoon-user-avatar.jpg" alt="user avatar" class="profile-icon">
+            </header>
+    
+            <main class="main">
+                <section class="post-header">
+                    <img src="./images/avatar-vangogh.jpg" alt="van gogh avatar" class="post-profile">
+                    <div class="post-details">
+                        <p class="post-owner-name bold">Vincent van Gogh</p>
+                        <p class="post-location">Zundert, Netherlands</p>
+                    </div>
+                </section>
+    
+                <section>
+                    <img src="./images/post-vangogh.jpg" alt="van gogh's painting" class="post-img">
+                </section>
+    
+                <section class="interaction-btns">
+                    <img src="./images/icon-heart.png" alt="heart with black outline" class="btn like-btn">
+                    <img src="./images/icon-comment.png" alt="comment icon with black outline" class="btn comment-btn">
+                    <img src="./images/icon-dm.png" alt="right arrow symbol" class="btn dm-btn">
+                </section>
+    
+                <section class="post-info">
+                    <p class="post-likes bold"> <span class="number">21</span> likes</p>
+                    <p class="post-caption"><span class="post-handle bold">vincey1853</span>just took a few mushrooms lol</p>
+                </section>
+            </main>
+        </div>      
+        <!-- <script src="index.js"></script> -->
     </body>
 </html>

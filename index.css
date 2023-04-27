@@ -1,5 +1,96 @@
 html, body {
-    margin: 0;
+    margin: 1em 0;
     padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.875rem;
 }
 
+/* Typography  */
+
+p {
+    margin: 0;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.post-owner-name {
+    font-size: 0.9rem;
+}
+
+/* Layout */
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 50px #ccc;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 0.5em 0;
+    border-bottom: 1.2px solid #C6C6C6;
+}
+
+.logo {
+    width: 7rem;
+    padding-left: 1em;
+}
+
+.profile-icon {
+    width: 2rem;
+    margin-left: auto;
+    padding-right: 1em;
+    border-radius: 50%;
+}
+
+/* Main */ 
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 1em 0.5em;
+    column-gap: 0.8em;
+}
+
+.post-profile {
+    width: 2rem;
+    border-radius: 50%;
+}
+
+
+
+.post-img {
+    width: 100%;
+}
+
+/* Interaction Buttons Section */
+
+.btn {
+    width: 2rem;
+    margin: 1.2em 0.2em 0.5em;
+    cursor: pointer;
+}
+
+.like-btn {
+    margin-left: 1em;
+}
+
+
+/* Post info */
+
+.post-info {
+    padding: 0 1em 1em;
+}
+
+.post-likes {
+    margin: 0.5em 0;
+}
+
+.post-caption span {
+    margin-right: 0.5em;
+}
