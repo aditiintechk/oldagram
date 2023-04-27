@@ -1,5 +1,5 @@
 html, body {
-    margin: 1.6em 0;
+    margin: 1.2em 0;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 0.875rem;
@@ -101,7 +101,12 @@ p {
     margin: 0.5em 0;
 }
 
-.post-caption span {
+.caption {
+    display: flex;
+    align-items: center;
+}
+
+.post-handle {
     margin-right: 0.5em;
 }
 
