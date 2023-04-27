@@ -22,9 +22,15 @@ p {
 /* Layout */
 
 .container {
-    width: 375px;
+    width: 450px;
     margin: 0 auto;
     box-shadow: 1px 1px 50px #ccc;
+    position: relative;
+}
+
+.header, .main {
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* Header */
@@ -80,6 +86,10 @@ p {
     margin-left: 1em;
 }
 
+.like-btn:hover {
+    filter: rotate(0deg);
+}
+
 
 /* Post info */
 
@@ -93,4 +103,26 @@ p {
 
 .post-caption span {
     margin-right: 0.5em;
+}
+
+/* Navigation for multiple posts */
+
+.nav-btn {
+    width: 1rem;
+    position: absolute;
+    cursor: pointer;
+}
+
+.nav-btn:hover {
+    filter: invert(48%) sepia(79%);
+}
+
+.left-btn {
+    top: 50%;
+    left: 3%;
+}
+
+.right-btn {
+    top: 50%;
+    right: 3%;
 }
